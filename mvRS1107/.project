@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>mvweb1107</name>
+	<name>mvRS1107</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -21,17 +21,17 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+			<name>org.jboss.tools.ws.jaxrs.metamodelBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.jboss.tools.jst.web.kb.kbbuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
 			<name>org.jboss.tools.cdi.core.cdibuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.jboss.tools.ws.jaxrs.metamodelBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -48,8 +48,8 @@
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+		<nature>org.jboss.tools.ws.jaxrs.nature</nature>
 		<nature>org.jboss.tools.jst.web.kb.kbnature</nature>
 		<nature>org.jboss.tools.cdi.core.cdinature</nature>
-		<nature>org.jboss.tools.ws.jaxrs.nature</nature>
 	</natures>
 </projectDescription>
